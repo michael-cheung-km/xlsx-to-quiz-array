@@ -1,4 +1,4 @@
-Code: CITYU_*SUBJECT*_*KEYWORD*_Q*NUMBER*
+Code: *IDENTIFIER*_*SUBJECT*_*KEYWORD*_Q*NUMBER*
 Question: *QUESTION*
 Type: EITHER 'True or false' OR 'Multiple Choice'
 Options: EITHER '--' OR *ANSWER1*;*ANSWER2*;*ANSWER3*;...
