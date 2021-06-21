@@ -1,0 +1,23 @@
+    let myQuestions = [];
+    let quizNumber = 1;
+
+    function setQuestions(){
+      myQuestions = quizArr[quizNumber-1];
+    }
+
+    function nextQuestion(){
+      quizNumber++;
+      buildQuiz();
+    }
+
+    function prevQuestion(){
+      quizNumber--;
+      buildQuiz();
+    }
+  
+    buildQuiz();
+  
+    submitButton.addEventListener('click', showResults);
+    nextButton.addEventListener('click', nextQuestion);
+    prevButton.addEventListener('click', prevQuestion);
+  })();

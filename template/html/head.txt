@@ -1,0 +1,12 @@
+<?php
+    include_once '../../headAndFoot/header2layer.php'
+?>
+
+<div id="quiz-wrap">
+    <div id="quiz"></div>
+    <div id="submit-button"><center><button id="submit">Check Answers</button></center></div>
+    <div id="results"></div>
+    <button id="previous">Previous Question</button>
+    <button id="next">Next Question</button>
+
+</div>
