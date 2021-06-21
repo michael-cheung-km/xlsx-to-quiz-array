@@ -1,0 +1,7 @@
+Code: CITYU_*SUBJECT*_*KEYWORD*_Q*NUMBER*
+Question: *QUESTION*
+Type: EITHER 'True or false' OR 'Multiple Choice'
+Options: EITHER '--' OR *ANSWER1*;*ANSWER2*;*ANSWER3*;...
+Answer: EITHER '0' OR *ALPHABET_NUMBER_REFERENCE* OR *LOWERCASE_LETTER*
+Answer TF: EITHER 'TRUE' OR 'FALSE' OR '--'
+Answer Description: EITHER '--' OR *DESCRIPTION*
